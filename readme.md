@@ -1,6 +1,6 @@
 
 # 6Asset
-6Asset: A Novel Approach for Efficient IPv6 Active Asset Discovery
+**6Asset: A Novel Approach for Efficient IPv6 Active Asset Discovery**
 ## Dependencies and installation
 6Asset is compateible with Python3.x. You can install the requirements for your version. 
 
