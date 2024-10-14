@@ -8,37 +8,60 @@
 pip3 install argparse
 ```
 
-## zmapv6 installation (ask in IPv4 network)
+## Smap installation (an IPv6 scanning toolkit)
 
 ###  Building from Source
 
 ```
-[git clone https://github.com/tumi8/zmap.git](https://github.com/AddrMiner/smap.git)
+git clone https://github.com/AddrMiner/smap.git
 ```
-### Installing ZMap Dependencies
+### Installing Smap Dependencies
 
-On Debian-based systems (including Ubuntu):
-```
-sudo apt-get install build-essential cmake libgmp3-dev gengetopt libpcap-dev flex byacc libjson-c-dev pkg-config libunistring-dev
+Rust environment
+Install according to the official documentation.
+[Other Installation Methods - Rust Forge (rust-lang.org)](https://forge.rust-lang.org/infra/other-installation-methods.html)
+### Build and install
+
+#### Compilation preparation
+
+1. Open sys_conf.ini under the smap root directory and modify the default configuration and prompt statements.
+When compiling, this file will be read and written into the program. Unless recompiled, the configuration in this file will remain unchanged forever.
+All prompt messages of smap are written by this file. You can translate this program into another language by modifying the prompt information in this file.
+
+2. Open Cargo.toml under the smap root directory and adjust necessary settings according to the system platform and actual needs.
+Suggestion: Set opt-level under [profile.release] to 3.
+   
+3. Smap depends on pcap. pcap is checked and installed by the automated installation script and does not need to be manually installed and configured.
+
+#### Installation
+
+Under the **smap root directory**, select the corresponding installation instruction according to the system platform, and enter the installation path as prompted or select the default installation path.
+
+
+Notes:
+Keep the network connected during installation.
+The custom installation path must contain the name of this program, such as D:\smap.
+In the Windows environment, the terminal application should be used to run this powershell script, and the default compilation target is stable-x86_64-pc-windows-gnu.
+Do not set the installation path to the source code path.
+
+##### Windows 
+
+   ```powershell
+   .\install_windows.ps1
+   ```
+
+##### Linux 
+
+```shell
+./install_linux.sh
 ```
 
-On RHEL- and Fedora-based systems (including CentOS):
-```
-sudo yum install cmake gmp-devel gengetopt libpcap-devel flex byacc json-c-devel libunistring-devel
+##### Macos 
+
+```shell
+./install_macos.sh
 ```
 
-On macOS systems (using Homebrew):
-```
-brew install pkg-config cmake gmp gengetopt json-c byacc libdnet libunistring
-```
-
-### Building and Installing ZMap
-
-```
-cmake .
-make -j4
-sudo make install
-```
 
 ## Usage
 Parameter meaning introduction：
