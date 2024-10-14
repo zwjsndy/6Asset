@@ -1,8 +1,8 @@
 
-# AddrMiner-S
+# 6Asset
 ## Dependencies and installation
-AddrMiner-S is compateible with Python3.x. You can install the requirements for your version. Besides, RDET uses the following packages:
- 
+6Asset is compateible with Python3.x. You can install the requirements for your version. 
+
 * argparse
 ```
 pip3 install argparse
