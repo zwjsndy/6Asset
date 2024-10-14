@@ -13,8 +13,7 @@ pip3 install argparse
 ###  Building from Source
 
 ```
-git clone https://github.com/tumi8/zmap.git
-cd zmap
+[git clone https://github.com/tumi8/zmap.git](https://github.com/AddrMiner/smap.git)
 ```
 ### Installing ZMap Dependencies
 
@@ -43,18 +42,16 @@ sudo make install
 
 ## Usage
 Parameter meaning introduction：
-* input:  type=str, input IPv6 addresses
+* input:  type=str, defalut=./testData.txt, input assets.
 * output: type=str,output directory name
 * budget: type=int,the upperbound of scan times
 * IPv6:   type=str,local IPv6 address
-* delta:  type=int, default =16, the base of address
-* beta:   type=int, default=16,the max of node
 * alpha:  type=float, default=0.1,learning rate
 * num_node: type=int, default=100
 * batch_size: type=int, default=1000
 running example
 ```
-sudo python3 DynamicScan.py
+sudo python3 DynamicScan.py --batch_size=100000 --budget=1000000 --IPv6='2001:da8::1'
 ```
 
 
