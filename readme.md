@@ -1,8 +1,6 @@
-<img width="1333" alt="image" src="https://github.com/user-attachments/assets/135cdd8f-c75c-4fb0-becb-128a065a9489">
-
-
 # 6Asset
 **6Asset: A Novel Approach for Efficient IPv6 Active Asset Discovery**
+<img width="1333" alt="image" src="https://github.com/user-attachments/assets/135cdd8f-c75c-4fb0-becb-128a065a9489">
 ## Dependencies and installation
 6Asset is compateible with Python3.x. You can install the requirements for your version. 
 
