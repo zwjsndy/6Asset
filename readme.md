@@ -12,7 +12,7 @@
 pip3 install argparse
 ```
 
-## Smap installation (an IPv6 scanning toolkit)
+## Smap installation (a network measurement tool)
 
 ###  Building from Source
 
