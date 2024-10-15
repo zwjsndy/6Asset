@@ -1,4 +1,5 @@
-<img width="1337" alt="image" src="https://github.com/user-attachments/assets/8e307559-ecc7-416e-877d-4416ac944689">
+<img width="1333" alt="image" src="https://github.com/user-attachments/assets/135cdd8f-c75c-4fb0-becb-128a065a9489">
+
 
 # 6Asset
 **6Asset: A Novel Approach for Efficient IPv6 Active Asset Discovery**
