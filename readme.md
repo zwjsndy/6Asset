@@ -92,6 +92,20 @@ CAPD.py
 * Output: Non-aliased assets under the folder./res.txt.
 
 
+### Asset Hitlist
+
+We construct the asset set and the ICMP-Inactive asset set, as shown in https://drive.google.com/file/d/1uoBZCPw476uFp9aDk4AzDWirkq_3dCRh/view?usp=sharing
+
+Among them, *raw_asset.txt* contains the assets without alias removal, *asset.txt* contains the asset set after alias removal using the CAPD method, and *ICMP_Inactive.txt* contains the collected ICMP-Inactive asset set.
+
+
+
+
+
+
+
+
+
 
 
 
