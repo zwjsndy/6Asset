@@ -2,7 +2,6 @@
 ***6Asset: A Novel Approach for Efficient IPv6 Active Asset Discovery***
 
 
-<img width="949" alt="image" src="https://github.com/user-attachments/assets/4f7833e4-4957-4edf-b35f-f2088291e9a8">
 
 
 ##  Dependencies and installation
